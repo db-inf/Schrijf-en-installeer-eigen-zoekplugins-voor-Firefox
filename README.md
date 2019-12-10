@@ -18,5 +18,5 @@ Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het 
 
 Kies dan welke zoek_plugins_ te installeren:
 
-	* ofwel door te klikken op de __...__ van de adresbalk en te kiezen in "Add search engine".
-	* ofwel door in de zoek-balk een keuze in "Add search engine" te maken.
+* ofwel door te klikken op de __...__ van de adresbalk en te kiezen in "Add search engine".
+* ofwel door in de zoek-balk een keuze in "Add search engine" te maken.
