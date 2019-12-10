@@ -16,7 +16,7 @@ Zet voor elke zoek-_plugin_ een link-sectie in de header van het bestand [index.
 ### De zoekplugin installeren
 Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het _file://_-protocol lukt de installatie niet: dat moet via het _http://_-protocol. Start daarom een private locale webserver, b.v. die van php met `php -S localhost:8000 -t mijnDirectory`, en vraag die in Firefox om het bestand [http://localhost:8000/index.html](http://localhost:8000/index.html).
 
-Kies dan welke zoek_plugins_ te installeren:
+Kies dan welke zoek-_plugins_ te installeren:
 
 * ofwel door te klikken op de __...__ van de adresbalk en te kiezen in "Add search engine".
 * ofwel door in de zoek-balk een keuze in "Add search engine" te maken.
