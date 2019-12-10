@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Wikipedia (FR)</ShortName>
+<Description>Wikipedia Francais</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAADVUlEQVRYhcWXT2gTURDGf4lbQlJrN03iqrRhEVGoF43/8KInD5IcFERRD6JQpAcPnhS0l/aieNdDQU8aECEK9uRJL6JQ8aAHg9QlVmGbxO7WNmWbBj0k+9ztbpuo0XwQmLyZ9+abtzPz3gsMDg5i42loewI4COwHErQX88Ak8DJj5T/Zg5LD+RngNtDbZscrUXsa2n4DGM1Y+aVgw/kJ4P5/cA6wDrhGPVgCU7uPhYFpoO8/OF+JvUHgcIecAxwPAskOOQdIBql/k05hXbCDzgHoOAHRB+4XPpBVAgCkNBOAN2q9KodKsEmKMCZXhM7WpzSTSwmV892znrkjRoSP1gJZJeAaT2kmozv2AfUyHKZRk8vWIuP6FBNKl3DymAGkUBhbP6q9E8Rumj3s3LhZ2N4pvGdC6SKtVxlO7hTjy9Yix/gMwL2FKIk+0WQfuD6BFAq7JtpjTvmqsk38n/9Rc9luQCKlmauuMWJEnM6BVXJgxIgIufit6NJF5ChpvQrAmFxxRZlVAlyIq571tHJ9jQNKv0fnS8Bp+Gh+xqM/t2GLkF/p0wBMlD6T1quoMe8Z9tAoMFTy87RGFdgTJpQuKsasS7dyFyrGLONxNzEbFWOWF/09pOMDv0fAOeHZQtGjP9q9Ucgnw0XSepWIHPXY5eZmSOtVVy61REAKhUWU43GvXo0lXCU5pGz12Nh54bczTQkAnFj/K0r7WzvhTLhJo+zRTxplUprpuzMtEUj0/YrSmfE2FmrLQvbTj8kVTkW9md8yAcC1gF1ONq70fue0/sNXb8vORvVHBJwLPDQKQn6lT5PSTM4md4ixuyXNZevsJ39MAOByud6aX/T3iJIckysiB2xHb9RetHJRlN4eOdYeAodjm4Scm5vhyZc8Kc0UTcfZuO6WNHJzMwyVWLX0fpuAsySzSoDxOK4zAdy7kFUCHOlu7Vbf8n3AWct+Tce53as1pb8iEJGjHJr+7iFjQwqFRft2dslmkIBaU6sGTspJ9pTniWzxjy4dH+CrPoWabPlRtSQBhaZmDaixBOoaLza/+0QTFILAc8B72vx71IBcMGPlF4GLHSBwK2Pl3wYBMlY+B5wFzLXntAVLwPXGj4DP83w/sIv2v5i+UX+ev85YeZF3PwHW+yWbvDwakgAAAABJRU5ErkJggg==</Image>
+<Url type="text/html" method="GET" template="http://fr.wikipedia.org/wiki/Special:Search?search={searchTerms}&amp;sourceid=mozilla-search">
+</Url>
+<moz:SearchForm>http://fr.wikipedia.org/wiki/Special:Search</moz:SearchForm>
+</OpenSearchDescription>

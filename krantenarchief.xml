@@ -1,0 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Krantenarchief</ShortName>
+<Description>Krantenarchief</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC60lEQVQ4jX2Sa0hUaRzGz+fYcnQuNmMh1UbRsn3oQ1FGm7ALwdaHWIYuREUXK4yiDwZGV5eBwiiC2JhSipa1xEw0u2xFNueM40Q5lplp2VzKacaZWR2U1XnPeM6vDyesiHrg4eUP7/vjffg/Eh+lCUGowkV2eITvSc9mUVMpNCEAkABG3wRpLyrGM9nM/72vycRiDAc6SDY103/OTV9ZOV3OdbQv+QX/j/PwWgt4uXmbAUjUN6BYHMQuXiaw/De89kLk3Hxkkw05x4aSNxXF4sBrm/aFnywsMgCP5s4n/ncNY+EIXc71RN1VhF0nUPLsXz363G0z5qAJgdS7czdDLQ9J1NUTqnAx1OKh/+w5WgtmfBegWByIWAzp1Z59RN1VxP+5Qk9JKe9OnyF09E8Us92wxYFiLTDOz6LIOVaGAx1Igy0eggePEDx4lODhCt4cOERgaTGKtYBI5Sm6N23l2YpVhI65eLFhM4rZiCabbCSbmpE0VUXLZAAYDYbQhGB8dJRHPy8g3eojcuIkfWXl6LpO4tp1PJNMxs/yptL/lxsp3eYn6q4C4Onvqxi8/wA9m6XrjzXELl0meLgC3/RZ6KrKyNNOkg2NExH79pcjjYXCvK++aJRkfByA1K07BIp/RcsI0j4/vmkz0VUVMZDgv3/vAdC9cQtdznVI4yMjxGtqAeh0riHR0AjA89VORCJButVHq6MQXajEa67yeLGx//DxStoXL0NC18kOpQEYkhXUZBKAvrJyNCEQ8Tiv9uxD1zRELEbq1m0AXqzdgH/2T0aV021+kk3NJBtvGOvcUUp70XIGaq8Z8/ZdDNTWET1fTerGTcKu4ygWO9786Qagp2QXco4V2WRDyc2f2LtssiFPsSBPtuCZZPp0x2xHyc2ne+MWA/DuzFk8P+ShWBz4CmfzeMEiOleuprd0L29PniZRV0/a62MsHKFnRymK2U6k8hS6phkATQiGAx1k+qMTnfiW3l+oZvDu/Yn5A6z28u+p2i0VAAAAAElFTkSuQmCC</Image>
+<Url type="application/x-suggestions+json" method="GET" template="http://zoeken.sint-niklaas.bibliotheek.be/krantenarchief/?q={searchTerms}"/>
+<Url type="text/html" method="GET" template="http://zoeken.sint-niklaas.bibliotheek.be/krantenarchief/">
+  <Param name="q" value="{searchTerms}"/>
+</Url>
+</SearchPlugin>

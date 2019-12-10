@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Schatkamer der Nederlandse taal</os:ShortName>
+<os:Description>Instituut voor Nederlandse Lexicologie - Schatkamer van de Nederlandse taal</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAYAAAAAABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAACuop63j3PGkm3MmnbUoHzTpoTas5PIuq7duZvjwqHkyKbqyq3ozK3myKvnxafiv6X//v/Z0s+1mInIlnLMm3vYsZH9+fj//v/PwLfivJ7iwKLnxKLnw6XjwqHiv57k2tD+/v76+PivoprLlG/PmXboz7v////////n4+LetZTfuZngvJ7iu5/jvJzczLv8/Pz9//////+xpaHFkGvMlnPmzLz//////v/v6+rZsY7YspDftJPbtZPZu6j4+ff+/f///////v+7q6XDjGXKk2zlyLn9///////x7ezWqIbYq4nZr4zSr5Xx7ez//v3//v///////v67r6nAiWLDjGXkx7j///v////z7e7So33WpIDNpYnm4d7//////v/9//////7////Bsq+/hFzBiGHXqYr9//79///x7+/PmnnLnXvXyL////7//v7////4+Pj9///9///Kt7K9f1m+g1zRo4v///7////28vHHk27Mtab//v/9//79///lz8Pp5uL////////TxMG5fU+8fljLooL//v////729PTDp5b7+fj///7//v/s3NDFjWrs6eX//////v7c09C1elO7d1LMnID////8/v7v7Oju6un//v/6/v/y6OHHj2zCh2Du6un///7//v/f1tO8imy3c07HmXr///////7//////v/////8+PPHkXK+g1y9glrw7Ov9/////v/g2dbBi2y1d07KmXn//////v/8/v7///76//vIlHa5elS8fFO5elTz7vD+/v7///7m3Ny+jW2xdEzHmH3///77/////v/////SqJGzdU25dk+2dU6zdE728vH//f/9//7iz8K1c1C0dk7HmHn+/v7//v////7au6a4dU60dk6ydky3dE22dU/s3ND////i39vGqZu3j3a5lHrGpZH08O/r5uPLw7ywh3GzjHa2jnu9lH2+mIDDnYXe0s7o5OO/ta61p6G7sKjHubPSxcPj2tbUy8enmpKwpJq6p6K+sKrFtrPMwLrWx8Xc0MwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</os:Image>
+<os:Url type="text/html" method="GET" template="https://ivdnt.org/zoeken-in-woordenboeken">
+<Param name="w" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

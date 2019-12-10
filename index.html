@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Installeer mijn eigen search engines</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.34.1" />
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Belgische Google"
+      href="google_be.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken op titel in de Internet Movie Database"
+      href="imdb-20091031.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in het Krantenarchief van de Bib"
+      href="krantenarchief.xml"/>  
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Nederlandse Wikipedia"
+      href="wikipedia-nl.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Engelse Wikipedia"
+      href="wikipedia-en.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Franse Wikipedia"
+      href="wikipedia-fr.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Duitse Wikipedia"
+      href="wikipedia-de.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Schatkamer der Nederlandse taal"
+      href="Schatkamer_der_Nederlandse_taal.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Van Dale"
+      href="vandale-nl.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="tekst vertalen met DeepL"
+      href="deepl.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="tekst vertalen met Google"
+      href="google-translate-txt-detect-nl.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="webpagina vertalen met Google"
+      href="google-translate-url-detect-nl.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in Library Genesis (via IP)"
+      href="LibGen.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de NZB Index NL"
+      href="nzbindex.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in Binsearch NZB index"
+      href="binsearch.xml"/>
+</head>
+
+<body>
+	<h1>Schrijf en installeer uw zoek-plugins voor Firefox</h1>
+<ol><li><h3>Schrijven</h3></li>
+	<p>
+		Hier vindt ge <a href="https://developer.mozilla.org/en-US/docs/Web/OpenSearch">meer over de syntax</a> van een zoek-plugin.
+	</p>
+	<p>
+		Als uw zoek-plugin klaar is, open het <i>.xml</i>-bestand dan in Firefox, om te controleren dat die het kan lezen zonder fouten. Firefox hapert soms wel, soms niet op het voorkomen van meer dan 1 parameter in de "template" van de <i>URL</i>-tag. Scheid die dan van elkaar door een <code>&amp;amp;</code> i.p.v. door een <code>&amp;</code>, of beter nog: als er na de url meer parameters nodig zijn dan die met de zoekterm (b.v. <b><code>http://url/zoeken.php?vraag={searchTerms}</code></b>), zet ze dan allemaal als <b><code>&lt;Param name="naam" value="waarde"&gt;</code></b> tussen de <b><code>&lt;url&gt;</code></b> en de <b><code>&lt;/url&gt;</code></b> tags, niet als opties in de <b><code>&lt;url&gt;</code></b> tag zelf.<br/>
+	</p>
+	<li>Toevoegen aan dit installatie-bestand</li>
+	<p>Zet voor elke zoek-plugin een link-sectie hierboven in de <code>header</code> van dit bestand.</p>
+	<li>Installeren</li>
+	<p>Start b.v. ZipWebServer of een andere webserver om dit bestand te openen in Firefox (lukt niet met het <b><i>file://</i></b> protocol), en kies welke plugins te installeren:
+		<ul>
+			<li>ofwel door te klikken op de <b>...</b> van de adresbalk en te kiezen in <i>"Add search engine"</i></li>
+			<li>ofwel in de zoek-balk een keuze in <b>"Add search engine"</b> te maken</li>
+		</ul>
+	</p>
+</ol>
+</body>
+
+</html>

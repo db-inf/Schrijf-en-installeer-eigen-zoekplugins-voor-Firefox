@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>DeepL</ShortName>
+<Description>DeepL vertaler</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="32" height="32" type="image/png">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUNK0Wap7JccILT2N07Ume0vsZ5iZj8/vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi6QMIAAAACHRSTlP/////////AN6DvVkAAAAJcEhZcwAADdcAAA3XAUIom3gAAAEDSURBVCjPXZBNSsNAGIaffEkWurJ04U4iuYCU7GyhIHoAjftCwSPoKfQAQsEL9OcCpV0XoUsXGszKVS3diW1IXcxPMr6bGZ55Z+Z9P+8BYP90E6Hkt4HtY/m200SAYgnlEguK4RzYLhQIYLABYCaJcmQbbZ5OAPyfKUbfH2cgayqtAMmB+EiBUn9Lele5BAjYuaBY5S0HMBg3UgN8tXz+Xh184Z1rB5BFndoVgHnogv7hsy0HEA9NowDg+GSfOcF67dcqRxcKvFrSHBitK7tcA+8v6r0UkDCx7n4ECBemhpqKQNwDMAcCNCNAklqO266trbpIy50YhPf/AJ716LZcnurNH7rdOUu0p7ItAAAAAElFTkSuQmCC</Image>
+<Url type="text/html" method="GET" template="https://www.deepl.com/translator#en/nl/{searchTerms}">
+</Url>
+<moz:SearchForm>https://www.deepl.com</moz:SearchForm>
+</OpenSearchDescription>

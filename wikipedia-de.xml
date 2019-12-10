@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Wikipedia (de)</ShortName>
+<Description>Wikipedia Deutsch</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAADPklEQVRYhcWXT2gTQRTGf5ndGDQHW6ESEKQFL3oyWAqCUkGooGxREJQqigeRiAdFsAfFQ0+mIvVkkR5EoaInpUUPBSGlgiCVeIoIQosWKVW0okG32d14mOxktrtpUy3NByGz896875s/7+1ODA2J0d4WYDfQAbSwuvgFvAFe2VZ2yu+MaeQ9wB1g4yoTL4YL3AD6bCu7ICrkR4HhNSAHMICryMkSS4z2rgdmgE1rQL4Y7QLobBA5wBEBbG0QOcBWgdyTRsEQDSQHoOECTL9RujWKlyvIh+ak/P9eBMDobie2ZRPO4FjV5tubk8SvH6V06X5orJnpwns3I+PqMZuTJB5cAGQaZqjkJEWbUvYpXn5acSQeXYRkAt9uZ4aUMPNKN8be7cq3dP0xXn4akW4l3nesKrRoYx+/DUB84DRiW8q3PAxuQTIRHFjp09vr+k9Wn3/+Cfpu3CBXpEYMM9OlkwM1zoCZ6VJt78NswBZLNSHSrQByS3wUbbxcgfilQ6F4Xl6WfuNgOmSLFKA7ug/GwwLPH6jan+elmIcvEelWRLot5O/cy2F0t0dR1c4Cf4CXn6Y8Ox+wLV6F8uw87shkQJiP8uw85ak5zJ49KxOgD3BH34QFHulQ7YWzdxHpVmKpppCfMzwhxepnqR4BJBNqlu7IZHhgui2QkvHew+EYlXMRtTLLCwCMU52q7e+1Dv3AueOFkN0dl/kftTJ1CRDbUmqWgRNfQflXNQ2j7M7gGObZ/UtRLF+K9QB+OimC/hHEvh2RdpV6WqH6JwF6AOdeTrXd53lZdC5bqq808Czgq9eTfxYAYJyQGVGemlMp6QyOqTOgiL4X8fJTKvWMzh2R8VYswLSqRcQZnsAZegHNSVV09MJVGniGMzwh60iN1FuxAD0lvVwBd2Qy+E5g0SrkChjWrrpC1/09oOdyVNHRl7tWUfovAbFUE7G2zSExCsmEKt96lVwOJvKiUJ/zmX147z/XnJ3Zs4fyp6+RL6QaWDCBj/V6i3Tb0sGjvieWxkcBjANfVjJqleACT4RtZX8D5xog4KZtZd8KANvKPgFOAD/WgHgBuFb5VW/HoK7nHcBOVv/G9A15PX9tW1l17v4CCzoSYx8KgewAAAAASUVORK5CYII=</Image>
+<Url type="text/html" method="get" template="http://de.wikipedia.org/w/index.php?title=Special:Search&amp;search={searchTerms}"/>
+<Url type="application/x-suggestions+json" template="http://de.wikipedia.org/w/api.php?action=opensearch&amp;search={searchTerms}"/>
+<moz:SearchForm>http://de.wikipedia.org</moz:SearchForm>
+<moz:UpdateInterval>7</moz:UpdateInterval>
+</OpenSearchDescription>
