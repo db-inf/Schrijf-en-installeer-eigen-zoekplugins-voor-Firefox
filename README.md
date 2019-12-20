@@ -19,7 +19,7 @@ Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het 
 * die van php met `php -S 127.0.0.1:8000 -t mijnDirectory`
 * die van python 2.X met `cd mijnDirectory;python -m SimpleHTTPServer 8000`
 * die van python 3 met `cd mijnDirectory;python3 -m http.server 8000`
-* [TinyWeb](https://www.ritlabs.com/en/products/tinyweb/install.php] (enkel voor MS Windows)
+* [TinyWeb](https://www.ritlabs.com/en/products/tinyweb/install.php) (enkel voor MS Windows)
 
 en vraag die locale server in Firefox om het bestand [http://127.0.0.1:8000/index.html](http://127.0.0.1:8000/index.html).
 
