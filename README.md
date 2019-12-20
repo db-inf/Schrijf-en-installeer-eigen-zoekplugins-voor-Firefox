@@ -14,11 +14,12 @@ Als uw zoek-_plugin_ klaar is, open dan even zijn _.xml_-bestand in Firefox, om 
 Zet voor elke zoek-_plugin_ een link-sectie in de header van het bestand [index.html](index.html).
 
 ### De zoekplugin installeren
-Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het _file://_-protocol lukt de installatie niet: dat moet via het _http://_-protocol. Start daarom een private locale webserver, b.v.
+Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het _file://_-protocol lukt de installatie niet: dat moet via het _http://_-protocol. Bij de meeste internet-abonnementen krijgt ge ruimte om een beperke eigen website op te zetten; de zojuist gemaakte bestanden kunnen daar perfect even bij. Maar anders kunt ge ook een private locale webserver starten, die de bestanden uit een directory aanbieden aan uw webbrowser. Voorbeelden
 
 * die van php met `php -S 127.0.0.1:8000 -t mijnDirectory`
 * die van python 2.X met `cd mijnDirectory;python -m SimpleHTTPServer 8000`
 * die van python 3 met `cd mijnDirectory;python3 -m http.server 8000`
+* [TinyWeb](https://www.ritlabs.com/en/products/tinyweb/install.php] (enkel voor MS Windows)
 
 en vraag die locale server in Firefox om het bestand [http://127.0.0.1:8000/index.html](http://127.0.0.1:8000/index.html).
 
