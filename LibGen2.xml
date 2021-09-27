@@ -3,7 +3,7 @@
 <Description>Library Genesis reserve (libgen.li)</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image width="16" height="16" type="image/png">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAACXBIWXMAAAsSAAALEgHS3X78AAADBklEQVRIx81WPWgUQRT+lIF9xeINuJApDrLogUc48AiBHFGIqJBgYxALxcJoYzqVFGIlKSSIiNhpl6ABCzGxUCxsBAkXCHJCkD0IcsIhIxxhDrZ4A1NY7G6If5j7CfiKZXZ4vN/ve2/2bW01sJeyH3sse+5A/FNjdcNdnHtOREqSCmRxUI6Xw5Nlf5cO9u2mB7cebywsvYdP4PRGhbnl+xcOBa4/Jbo3U5L5AQDwAQIIOvr+aKnazx6cGAnBkDKnVE6pHCS9XW/0rUTbckDmk4MxHDXNUN712uQvWjS00YbZMTPgmtYxgJxPKpDG0FhJdO/g6JUXutkGAAc4hsvU0wOBAIH56xNXJ/PdlGg1chdvP2e2IA8uiyex7izgQQCxlSpXf3q+myaPFcXDW5NgwAGwaeywcIDw0l8CM3ePonOVoFwZBFsID87CWcRAbNFqI7Zgixihkj0x+fKpcu1tPQlWBrlQSekTCbCDbpko+j41XuwVpncWNjoaD13y4HNT6JbRhk3M7ZhJAIBHJAkqkH9z/9cSvanGa1GjVteNFhtjOLZwADMEpRopnNIbGXjLD6d/p96fM7j2YH3l2Rp8QBBEFkaCnJ2xuR3fVrty/Mir+dO7yuDJ7Ig6SI+X1uB7KeS3xW0jamceHnxqaNMBTOemSzOXRtFKrFs4m1nPfAhAeBAZBwF2HfJgbrqUkiCpT2IXHsgDLJAklzlzCAPZMdHmr50AkE6FJPaUZUgdM8DJJU+Ohh0TbbggiqXBaL2edFuqXLmgyofVYF6GgZSSpE8m5qihvzbNzQuFrpg8UVyMeXK8OFEJhwu/6LvVDT1W8ofyARD0YeHslJcfWouva9V39RuzE7f/FPtuM/hp+bTMp01d/aRrkTa6DQH4ZAx3P+y+Gf/K3RVtmJmNaSPOqEuA70EAxhL1sDJNzLX1r6CMyX6GqHRDeHAYHwm73wdDeacKA0iKsM01TjcBdHtq6ujJkt/TNP246e4tVaNNrWNOSCt9UgEVQ3X2WHimEvTz2fI/Pn5/ALmxaPhSpLSaAAAAAElFTkSuQmCC</Image>
-<Url type="text/html" method="GET" template="http://libgen.li/search.php">
+<Url type="text/html" method="GET" template="http://libgen.li/index.php">
 	<Param name="req" value="{searchTerms}"/>
 	<Param name="res" value="100"/>
 </Url>
