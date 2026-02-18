@@ -11,7 +11,7 @@ Als uw zoek-_plugin_ klaar is, open dan even zijn _.xml_-bestand in Firefox, om 
 ## Installeren
 
 ### De zoekplugin toevoegen aan dit installatie-bestand
-Zet voor elke zoek-_plugin_ een link-sectie in de header van het bestand [index.html](index.html).
+Zet voor elke zoek-_plugin_ een link-sectie in de header van het bestand [index.html](index.html). Recente versies van Firefox lezen daarvan mogelijk enkel de bovenste paar _link_s; zet de te installeren zoek-_plugin_ daarom bovenaan.
 
 ### De zoekplugin installeren
 Ge moet nu het bestand [index.html](index.html) openen in Firefox, maar met het _file://_-protocol lukt de installatie niet: dat moet via het _http://_-protocol. Bij de meeste internet-abonnementen krijgt ge ruimte om een beperke eigen website op te zetten; de zojuist gemaakte bestanden kunnen daar perfect even bij. Maar anders kunt ge ook een private locale webserver starten, die de bestanden uit een directory aanbieden aan uw webbrowser. Voorbeelden
