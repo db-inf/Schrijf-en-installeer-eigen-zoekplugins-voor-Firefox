@@ -6,12 +6,14 @@
 	<title>Installeer mijn eigen search engines</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.34.1" />
+	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in het Krantenarchief van de Bib"
+      href="krantenarchief.xml"/>
+	<link rel="search" type="application/opensearchdescription+xml" title="boek zoeken in Anna's archive"
+      href="Annas-archive.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Belgische Google"
       href="google_be.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken op titel in de Internet Movie Database"
       href="imdb-20091031.xml"/>
-	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in het Krantenarchief van de Bib"
-      href="krantenarchief.xml"/>  
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Nederlandse Wikipedia"
       href="wikipedia-nl.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Engelse Wikipedia"
@@ -20,9 +22,9 @@
       href="wikipedia-fr.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Duitse Wikipedia"
       href="wikipedia-de.xml"/>
-	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Schatkamer der Nederlandse taal"
+	<link rel="search" type="application/opensearchdescription+xml" title="woord zoeken in de Schatkamer der Nederlandse taal"
       href="Schatkamer_der_Nederlandse_taal.xml"/>
-	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de Van Dale"
+	<link rel="search" type="application/opensearchdescription+xml" title="woord zoeken in de Van Dale"
       href="vandale-nl.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="tekst vertalen met DeepL"
       href="deepl.xml"/>
@@ -30,9 +32,9 @@
       href="google-translate-txt-detect-nl.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="webpagina vertalen met Google"
       href="google-translate-url-detect-nl.xml"/>
-	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in Library Genesis 2 (op libgen.li)"
+	<link rel="search" type="application/opensearchdescription+xml" title="boek zoeken in Library Genesis 2 (op libgen.li)"
       href="LibGen2.xml"/>
-	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in Library Genesis 1 (op libgen.rs)"
+	<link rel="search" type="application/opensearchdescription+xml" title="boek zoeken in Library Genesis 1 (op libgen.rs)"
       href="LibGen.xml"/>
 	<link rel="search" type="application/opensearchdescription+xml" title="zoeken in de NZB Index NL"
       href="nzbindex.xml"/>
@@ -50,10 +52,11 @@
 		Als uw zoek-plugin klaar is, open het <i>.xml</i>-bestand dan in Firefox, om te controleren dat die het kan lezen zonder fouten. Firefox hapert soms wel, soms niet op het voorkomen van meer dan 1 parameter in de "template" van de <i>URL</i>-tag. Scheid die dan van elkaar door een <code>&amp;amp;</code> i.p.v. door een <code>&amp;</code>, of beter nog: als er na de url meer parameters nodig zijn dan die met de zoekterm (b.v. <b><code>http://url/zoeken.php?vraag={searchTerms}</code></b>), zet ze dan allemaal als <b><code>&lt;Param name="naam" value="waarde"&gt;</code></b> tussen de <b><code>&lt;url&gt;</code></b> en de <b><code>&lt;/url&gt;</code></b> tags, niet als opties in de <b><code>&lt;url&gt;</code></b> tag zelf.<br/>
 	</p>
 	<li>Toevoegen aan dit installatie-bestand</li>
-	<p>Zet voor elke zoek-plugin een link-sectie hierboven in de <code>header</code> van dit bestand.</p>
+	<p>Zet voor elke zoek-plugin een link-sectie hierboven in de <code>header</code> van dit bestand. Recente versies van Firefox lezen daarvan mogelijk enkel de bovenste paar _link_s; zet de te installeren zoek-plugin daarom bovenaan.</p>
 	<li>Installeren</li>
 	<p>Start b.v. ZipWebServer of een andere webserver om dit bestand te openen in Firefox (lukt niet met het <b><i>file://</i></b> protocol), en kies welke plugins te installeren:
 		<ul>
+			<li>ofwel, in recentere versies van Firefox, krijgt ge zowel in de adresbalk als in de zoekbalk icoontjes voor de eerste zoveel link-secties; klik op de icoontjes die ge wilt toevoegen</li>
 			<li>ofwel door te klikken op de <b>...</b> van de adresbalk en te kiezen in <i>"Add search engine"</i></li>
 			<li>ofwel in de zoek-balk een keuze in <b>"Add search engine"</b> te maken</li>
 		</ul>
