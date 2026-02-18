@@ -25,5 +25,6 @@ en vraag die locale server in Firefox om het bestand [http://127.0.0.1:8000/inde
 
 Kies dan welke zoek-_plugins_ te installeren:
 
+* ofwel, in recentere versies van Firefox, krijgt ge zowel in de adresbalk als in de zoekbalk icoontjes voor de eerste zoveel link-secties; klik op de icoontjes die ge wilt toevoegen
 * ofwel door te klikken op de __...__ van de adresbalk en te kiezen in "Add search engine".
 * ofwel door in de zoek-balk een keuze in "Add search engine" te maken.
